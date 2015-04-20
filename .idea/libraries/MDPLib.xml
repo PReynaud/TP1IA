@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MDPLib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/TP1MDP/lib/MDPLib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
