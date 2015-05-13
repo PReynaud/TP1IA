@@ -53,7 +53,7 @@ public class ValueIterationAgent extends PlanningValueAgent {
         List<Etat> listEtat = this.getMdp().getEtatsAccessibles();
         for (Etat e : listEtat) {
             l = this.getMdp().getActionsPossibles(e);
-            if (!e.estTerminal() && ancient_values[e.indice()] == 0) {
+            if (!e.estTerminal()) {
                 double maxAction = -1000;
                 for (Action a : l) {
                     double somme = 0;
